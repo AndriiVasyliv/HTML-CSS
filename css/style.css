@@ -1,0 +1,34 @@
+/* Fonts */
+body {font: 14px/1.5 'Abel', Arial, "Liberation Sans", FreeSans, sans-serif}
+h1,h2,h3 {font-weight: normal} /* We need this to prevent fonts from being bold */
+h1 {font: 80px/1.5 'Six Caps', Arial, "Liberation Sans", FreeSans, sans-serif}
+h2 {font-size: 18px; text-transform:uppercase}
+h3 {font: 40px/1.5 'Six Caps', Arial, "Liberation Sans", FreeSans, sans-serif}
+
+/* Structure styles */
+html, body, #wrapper {height: 100%}
+body > #wrapper {height: auto; min-height: 100%}
+.push_80 {height:80px;}
+#footer {border-top:1px solid black;	text-align: center; position: relative; margin-top: -51px; height: 50px; clear: both; background-color: #EEE}
+
+/* Logotype */
+#logotype {position: relative; display: block}
+#logo_big {padding-right: 5px; border-right: 1px solid black; border-bottom: 1px solid black}
+#logo_first {font-size: 25px; position: absolute; left: 72px; top: 16px}
+#logo_second {font-size: 25px; position: absolute; left: 72px; top: 40px}
+#logo_third {font-size: 25px; position: absolute; left: 72px; top: 64px}
+
+/* Menu */
+#main_menu ul {list-style-type: none; text-align: right; margin-top:37px}
+#main_menu>ul>li {display:inline-block; margin-left:40px}
+#main_menu>ul>li>a{font-size:18px; display:block; padding:10px 20px; text-transform:uppercase;	border: 1px solid black; text-decoration:none}
+#main_menu>ul>li>a:hover{border: 1px solid #F90}
+
+/* Content styles */
+.black_background_header {color:white; background-color:black; padding-left:5px; margin-bottom: 10px; margin-top:30px}
+
+/* Links */
+a:link {color:#000}      /* unvisited link */
+a:visited {color:#111}  /* visited link */
+a:hover {color:#F90}  /* mouse over link */
+a:active {color:#111}  /* selected link */

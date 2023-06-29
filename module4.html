@@ -1,0 +1,63 @@
+<html>
+	<head>
+	<title>Модуль4</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+		h1 {
+		font: italic bold 30px/40px Arial, Helvetica, sans-serif; 
+		text-transform: uppercase;
+		letter-spacing: 2px; 
+		}
+		h2 {
+		font: italic bold 18px/30px Arial, Helvetica, sans-serif; 
+		}
+		p {
+		font: 12px/20px Arial, Helvetica, sans-serif; 
+		}
+
+		div.news-block { 	
+		float:left;
+		color: red; 		
+		background-color: yellow; 	
+		width: 77px; 		
+		padding: 10px;		
+		border: 2px solid #889;	
+		margin: 10px;		
+		}
+		
+		div.news-block:hover {
+			opacity: 0.1;
+			cursor: pointer;
+		}
+		
+		#wrapper {
+			height: 100%;
+			margin:0 auto;
+		}
+		
+		#main-block {
+			min-height: 100%;
+		}
+		.clear {clear:both}
+
+		
+		
+
+	</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="main-block">
+				<h1>The main and only header</h1>
+				<div class="news-block"><h2>1 item header</h2> <p>Some text</p></div>
+				<div class="news-block"><h2>2 item header</h2> <p>Some text</p></div>
+				<div class="news-block"><h2>3 item header</h2> <p>Some text</p></div>
+				<div class="clear"></div>
+			</div>
+			<div id="bottom-block">
+				<img src="image.jpg" alt="bottom-image.jpg" /> 
+				<p>Just some text about copyright.</p>
+			</div>
+		</div>
+	</body>
+</html>

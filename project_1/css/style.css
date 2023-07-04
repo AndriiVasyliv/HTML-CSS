@@ -1,6 +1,9 @@
+/* For fist container */
 .container-1 {
     background-image: url('../image/fon.png');
     background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .btn {
@@ -12,8 +15,23 @@
   
 
 .content1 {
-    padding: 200px;
+    padding: 150px;
 }
+
+@media (max-width: 991px) {  
+    .content1 {
+        padding-top: 500px;  
+    }
+}
+
+@media (max-width: 767px) { 
+    .content1 {
+        padding: 0;
+        padding-top: 400px; 
+        text-align: center;  
+    }
+}
+
 
 
 .text-1 p,

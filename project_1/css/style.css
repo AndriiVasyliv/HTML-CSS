@@ -357,3 +357,12 @@
         height: 350px;
     }
 }
+/* For fourth page TESTIMONIALS */
+.container-4 {
+    background-image: url('../image/testimonials.png');
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    padding-right: 150px;
+}

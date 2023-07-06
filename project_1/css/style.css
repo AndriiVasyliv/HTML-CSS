@@ -418,9 +418,15 @@
     padding-right: 150px;
     width: 100%;
 }
-/* #dropdown-button {
-    width: 100%;
-} */
+@media (max-width: 576px) {
+    #dropdown-button .col-auto {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+/* Finish page */
 .container-7 {
     background-size: cover;
     background-position: center;
